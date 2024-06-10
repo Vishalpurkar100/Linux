@@ -1,0 +1,222 @@
+﻿Assignment1
+1)
+Command-:
+sunbeam@vishal-purkar:~$ man man
+
+2)
+Command-:
+sunbeam@vishal-purkar:~$ uname
+Linux
+
+3)
+Command-:
+sunbeam@vishal-purkar:~$ pwd
+/home/sunbeam
+
+4)
+Command-:
+sunbeam@vishal-purkar:~$ hostname
+vishal-purkar
+Command-:
+sunbeam@vishal-purkar:~$ hostname --all-ip-addresses
+192.168.4.251
+
+5)
+Command-:
+sunbeam@vishal-purkar:~$ date
+Friday 31 May 2024 05:16:06 PM IST
+
+6)
+Command-:
+sunbeam@vishal-purkar:~$ ncal
+    May 2024          
+Su     5 12 19 26   
+Mo     6 13 20 27   
+Tu     7 14 21 28   
+We  1  8 15 22 29   
+Th  2  9 16 23 30   
+Fr  3 10 17 24 31   
+Sa  4 11 18 25 
+   
+7)
+Command-:
+sunbeam@vishal-purkar:~$ ls
+Desktop    Downloads                               LinuxPractice1  Pictures  Public  Templates
+Documents  google-chrome-stable_current_amd64.deb  Music           Postman   snap    Videos
+Command-:
+sunbeam@vishal-purkar:~$ dir
+Desktop    Downloads				   LinuxPractice1  Pictures  Public  Templates
+Documents  google-chrome-stable_current_amd64.deb  Music	   Postman   snap    Videos
+
+8)
+Command-:
+sunbeam@vishal-purkar:~$ cat > LinuxPractice2.txt
+Hello Sir..........
+Linux First Program Commands
+Command-:
+sunbeam@vishal-purkar:~$ cat LinuxPractice2.txt
+Hello Sir..........
+Linux First Program Commands
+
+9)
+Command-:
+sunbeam@vishal-purkar:~$ cat >> LinuxPractice2.txt
+By Sunbeam
+Command-:
+sunbeam@vishal-purkar:~$ cat LinuxPractice2.txt
+Hello Sir..........
+Linux First Program Commands
+By Sunbeam
+
+
+10)
+Command-:
+sunbeam@vishal-purkar:~$ cp LinuxPractice2.txt LinuxPractice3.txt
+sunbeam@vishal-purkar:~$ cat LinuxPractice3.txt
+Hello Sir..........
+Linux First Program Commands
+By Sunbeam
+11)
+Command-:
+sunbeam@vishal-purkar:~$ mv LinuxPractice2.txt OS_Linux_Assignments
+sunbeam@vishal-purkar:~$ cd OS_Linux_Assignments
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPractice2.txt
+12)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ mv LinuxPractice2.txt LinuxPractice5.txt
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPractice5.txt
+13)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ mv LinuxPractice2.txt LinuxPractice5.txt
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPractice5.txt
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ rev LinuxPractice5.txt
+..........riS olleH
+sdnammoC margorP tsriF xuniL
+maebnuS yB
+
+14)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ wc LinuxPractice5.txt
+ 3  8 60 LinuxPractice5.txt
+
+15)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ mkdir LinuxPra
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPra  LinuxPractice5.txt
+
+16)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ cd
+
+17)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPra  LinuxPractice5.txt
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ rm -R LinuxPractice5.txt
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPra
+
+18)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPra
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ rmdir LinuxPra
+
+
+19)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ touch LinuxPractice6.txt LinuxPractice7.txt
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPractice6.txt  LinuxPractice7.txt
+
+20)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ sort LinuxPractice6.txt
+Cdac
+Dac
+DBDA
+Good Afternoon
+Good Afternoon
+Hello
+Hello
+Sunbeam
+
+21)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ cat >> LinuxPractice6.txt
+Hello
+Hello
+Good Afternoon
+Good Afternoon
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPractice6.txt  LinuxPractice7.txt
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ cat  LinuxPractice6.txt
+Hello
+Hello
+Good Afternoon
+Good Afternoon
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ uniq LinuxPractice6.txt
+Hello
+Good Afternoon
+
+22)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ head -2 LinuxPractice6.txt
+Hello
+Hello
+
+23)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ tail -2 LinuxPractice6.txt
+Dac
+DBDA
+
+24)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ factor 125
+125: 5 5 5
+
+25)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ alias l=ls
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ l
+LinuxPractice6.txt  LinuxPractice7.txt
+26)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ unalias l
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ l
+l: command not found
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ls
+LinuxPractice6.txt  LinuxPractice7.txt
+
+
+
+27)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ echo $VARNAME
+
+28)
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ ps
+    PID TTY          TIME CMD
+   5242 pts/0    00:00:00 bash
+   6998 pts/0    00:00:00 ps
+
+29)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ kill
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+30)
+Command-:
+sunbeam@vishal-purkar:~/OS_Linux_Assignments$ env
